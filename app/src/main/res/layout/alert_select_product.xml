@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="titre"
+        android:textColor="@color/whiteColor"
+        android:background="@color/blackTranspanrent"
+        android:textAlignment="center"
+        android:id="@+id/titre_alert"
+        android:textSize="40dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:id="@+id/description_alert"
+                android:text="bldscbhdbchud"
+                android:textColor="@color/whiteColor"
+                android:background="@color/blackTranspanrent"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blackTranspanrent">
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="20dp"
+                    android:text="Quantite totale"
+                    android:textColor="@color/whiteColor"
+                    />
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="20dp"
+                    android:layout_weight="0.5"
+                    android:id="@+id/quantite_total_alert"
+                    android:textColor="@color/whiteColor"
+                    android:textAlignment="center"
+                    android:text="0"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/blackTranspanrent">
+                    <Button
+                        android:layout_width="0px"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blackTranspanrent"
+                        android:id="@+id/btn_plus_alert"
+                        android:text="+"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="40dp"/>
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:id="@+id/quantite_alert"
+                        android:textSize="20dp"
+                        android:textColor="@color/whiteColor"
+                        />
+                    <Button
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_moins_alert"
+                        android:background="@color/blackTranspanrent"
+                        android:text="-"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="40dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/bgalert"
+            android:id="@+id/image_alert"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+
+</LinearLayout>

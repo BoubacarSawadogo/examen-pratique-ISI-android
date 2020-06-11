@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:background="@color/blackTranspanrent">
+     <TextView
+         android:layout_width="0px"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:id="@+id/titre_panier"
+         android:text="Titre"/>
+     <TextView
+         android:layout_width="0px"
+         android:layout_weight="1"
+         android:id="@+id/quantite_panier"
+         android:layout_height="wrap_content"
+         android:text="Quantite"/>
+     <TextView
+         android:layout_width="0px"
+         android:layout_weight="1"
+         android:layout_height="wrap_content"
+         android:text="Prix unitaire"/>
+     <TextView
+         android:layout_width="0px"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Prix total"/>
+ </LinearLayout>
+
+</LinearLayout>
